@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\Erika\Desktop\Cursos\DIO\DIO Claro - Java com Spring Boot\Introdução - JAVA\relembrando-java-POO-DIO\Pacotes Java\.metadata\.plugins\org.eclipse.jdt.core
+3413270776.index
+1166419436.index
+1865797976.index
