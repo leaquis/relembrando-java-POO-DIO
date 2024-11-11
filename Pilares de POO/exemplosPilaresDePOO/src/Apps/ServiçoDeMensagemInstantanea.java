@@ -1,23 +1,15 @@
-package ServiçoDeMensagemInstantanea;
+package Apps;
 
-public class ServiçoDeMensagemInstantanea {
-	public void enviarMensagem() {
-		validarConectadoInternet();
-		
-		System.out.println("Enviando mensagem");
-		
-		salvarHistoricoMensagem();
-	}
+public abstract class ServiçoDeMensagemInstantanea {
+	public abstract void enviarMensagem();
+	public abstract void receberMensagem();
 	
-	public void receberMensagem() {
-		System.out.println("Recebendo mensagem");
-	}
-	
-	private void validarConectadoInternet() {
+	protected void validarConectadoInternet() {
 		System.out.println("Validando se esta conectado a internet");
 	}
 	
-	private void salvarHistoricoMensagem() {
-		System.out.println("Salvando histórico de mensagem");
+	protected void salvarHistoricoMensagem() {
+		System.out.println("Salvando historico de mensagens");
 	}
+	
 }
